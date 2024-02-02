@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <title>Forms</title>
+        <form>
+          
+            Personal Details <br><br>
+
+            <label> First Name:</label>
+            <input type="name" id> <br> <br>
+
+            <label> Last Name:</label>
+            <input type="name" id> <br> <br>
+
+            <label> Phone Number</label>
+            <input type="phone" > <br> <br>
+
+            <label> Age:</label>
+            <input type="number" min="0"> <br><br>
+            <!--<input type="number" min="18" max="35"> <br><br> !-->
+
+            <label> Date of Birth:</label>
+            <input type="date" required> <br> <br>
+
+            <label> Upload Picture:</label>
+            <input type="file" required> <br> <br>
+
+            <label> Email:</label>
+            <input type="email" required placeholder="johndoe@domain.com"> 
+
+            <p>Choose Gender</p>
+            <label for="male"> Male</label>
+            <input type="radio" value="male" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" value="female" name="gender" id="female"> <br> <br>
+
+            <label> How did you hear about us</label>
+            <select name="infosource" id="infosource">
+                <option value="">Twitter</option>
+                <option>Facebook</option>
+                <option>Instagram</option>
+            </select> 
+            <p> What days will you be available</p>
+             <label for="monday">Monday</label>
+             <input type="checkbox" id="monday" value="monday">
+             <label for="tuesday">Tuesday</label>
+             <input type="checkbox" id="tuesday" value="tuesday">
+             <label for="wednesday">Wednesday</label>
+             <input type="checkbox" id="wednesday" value="wednesday">
+             <label for="thursday">Thursday</label>
+             <input type="checkbox" id="thursday" value="thursday">
+             <label for="friday">Friday</label>
+             <input type="checkbox" id="friday" value="friday"> <br> <br>
+           
+            <fieldset>
+                <legend>      
+           <!-- <label> Tell is what you expect from the program </labels>-->
+            <textarea name="" id="" cols="30" rows="10" placeholder="Tell is what you expect from the program"></textarea> <br><br>
+        </legend>
+    </fieldset> <br> <br>
+
+                    
+            <button> Submit </button>
+        </form> 
+    </body>
+</html>
